@@ -1,0 +1,10 @@
+body {
+	background: white;
+	/*color: white;*/
+}
+
+.line {
+	stroke: blue;
+	stroke-width: 1px;
+	fill: none;
+}

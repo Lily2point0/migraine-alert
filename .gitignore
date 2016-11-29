@@ -1,0 +1,4 @@
+#Ignore config
+client/js/apiconfig.js
+client/lib/*
+client/data/*

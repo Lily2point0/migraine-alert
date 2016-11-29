@@ -1,0 +1,14 @@
+[Unit]
+Description=Migraine Alert Service
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/usr/bin/node /home/root/code/migraine-alert/index.js
+User=root
+Restart=on-failure
+RestartSec=10
+WorkingDirectory= /home/root/code/migraine-alert/
+
+[Install]
+WantedBy=multi-user.target
