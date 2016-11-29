@@ -1,0 +1,49 @@
+{
+	"serverIP": "XX.XX.XX.XXX",
+	"endpoints": {
+		"getSecret": {
+			"path": "/api/register.php",
+			"method": "GET",
+			"token": true,
+			"secret": false,
+			"apiToken": false,
+			"resultParam": "secret"
+		},
+
+		"getApiToken": {
+			"path": "/api/tokens.php",
+			"method": "GET",
+			"token": true,
+			"secret": true,
+			"apiToken": false,
+			"resultParam": "token"
+		},
+
+		"setEnvironment": {
+			"path": "/api/environments.php",
+			"method": "GET",
+			"token": false,
+			"secret": false,
+			"apiToken": true,
+			"resultParam": "token"
+		},
+
+		"setUser": {
+			"path": "/api/users.php",
+			"method": "GET",
+			"token": false,
+			"secret": false,
+			"apiToken": true,
+			"resultParam": "token"
+		},
+
+		"sendData": {
+			"path": "/api/data.php",
+			"method": "POST",
+			"token": false,
+			"secret": false,
+			"apiToken": true,
+			"resultParam": null
+		}
+	}
+}
