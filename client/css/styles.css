@@ -1,45 +1,36 @@
 body {
-	background: white;
-	/*color: white;*/
+  background: rgba(233, 236, 198, 0.5);
 }
-
 header {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-
 .line {
-	stroke: blue;
-	stroke-width: 1px;
-	fill: none;
+  stroke: #EB648C;
+  stroke-width: 1px;
+  fill: none;
 }
-
 .line_temp {
-	stroke: red;
-	stroke-width: 1px;
-	fill: none;
+  stroke: #70ABA6;
+  stroke-width: 1px;
+  fill: none;
 }
-
 .line_light {
-	stroke: limegreen;
-	stroke-width: 1px;
-	fill: none;
+  stroke: #ADB262;
+  stroke-width: 1px;
+  fill: none;
 }
-
 .legend .item .colour {
-	display: inline-block;
-	width: 10px;
-	height: 10px;
-	margin-right: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
 }
-
-.legend .sound .colour {
-	background: blue;
+.legend .item.sound .colour {
+  background: #EB648C;
 }
-
-.legend .temp .colour {
-	background: red;
+.legend .item.temp .colour {
+  background: #70ABA6;
 }
-
-.legend .light .colour {
-	background: limegreen;
+.legend .item.light .colour {
+  background: #ADB262;
 }

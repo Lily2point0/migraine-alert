@@ -1,0 +1,54 @@
+body {
+	background: @background;
+}
+
+header {
+	margin-bottom: 10px;
+}
+
+.line {
+	stroke: @redGraph;
+	stroke-width: 1px;
+	fill: none;
+}
+
+.line_temp {
+	stroke: @blueGraph;
+	stroke-width: 1px;
+	fill: none;
+}
+
+.line_light {
+	stroke: @greenGraph;
+	stroke-width: 1px;
+	fill: none;
+}
+
+.legend {
+	.item {
+		.colour {
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			margin-right: 10px;
+		}
+
+		&.sound {
+			.colour {
+				background: @redGraph;
+			}
+		}
+
+		&.temp {
+			.colour {
+				background: @blueGraph;
+			}
+		}
+
+		&.light {
+			.colour {
+				background: @greenGraph;
+			}
+		}
+	}
+}
